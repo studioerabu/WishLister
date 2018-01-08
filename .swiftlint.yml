@@ -1,0 +1,55 @@
+# All rules can be found here:
+# https://github.com/realm/SwiftLint/tree/master/Source/SwiftLintFramework/Rules
+# https://github.com/realm/SwiftLint/blob/master/Rules.md
+
+disabled_rules: # rule identifiers to exclude from running
+- trailing_newline
+- opening_brace
+- comma
+- type_name
+- variable_name_min_length
+- trailing_semicolon
+- function_body_length
+- nesting
+- variable_name
+- conditional_binding_cascade
+- variable_name_max_length
+- operator_whitespace
+- control_statement
+- legacy_constant
+- return_arrow_whitespace
+- trailing_whitespace
+- closing_brace
+- statement_position
+- todo
+- legacy_constructor
+- valid_docs
+- leading_whitespace
+- unused_closure_parameter
+- force_cast
+
+opt_in_rules: # some rules are only opt-in
+- empty_count
+- missing_docs
+
+function_parameter_count:
+    warning: 5
+    error: 6
+
+#force_cast: warning # implicitly
+
+force_try:
+    severity: warning # explicitly
+
+line_length:
+    warning: 160
+    ignores_function_declarations: true
+    ignores_comments: true
+
+file_length: 1000
+type_body_length: 500
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Pods
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji)
