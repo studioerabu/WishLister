@@ -7,7 +7,7 @@ Wish Lister is a simple iOS app where you create a list of items you wish to hav
 </div>
 
 ## Features
-* Add image, title, price and description
+* Add and edit image, title, price and description
 
 ## Notes
 * Core Data is being used to save data to local db
