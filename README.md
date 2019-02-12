@@ -1,4 +1,4 @@
-# WishLister
+# Wish Lister
 Wish Lister is a simple iOS app where you create a list of items you wish to have one day.  
 
 <div style="block: inline;">
