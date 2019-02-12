@@ -130,6 +130,9 @@ internal class ItemDetailsVC: UIViewController {
 
         let store5 = Store(context: context)
         store5.name = "MEC"
+        
+        let store6 = Store(context: context)
+        store6.name = "Apple"
 
         ad.saveContext()
     }
