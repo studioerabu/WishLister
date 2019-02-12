@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C12184B6220E0E8C0088D6AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C12184B5220E0E8C0088D6AC /* Default-568h@2x.png */; };
 		C13FA49222135B68004D11EC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C13FA49122135B68004D11EC /* README.md */; };
+		C13FA49A22138530004D11EC /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = C13FA49822138530004D11EC /* Screenshot1.png */; };
+		C13FA49B22138530004D11EC /* Screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = C13FA49922138530004D11EC /* Screenshot2.png */; };
 		C1458D4D20049E7300E35765 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1458D4C20049E7300E35765 /* MaterialView.swift */; };
 		C1458D4F2004AE9700E35765 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1458D4E2004AE9700E35765 /* ItemCell.swift */; };
 		C1704C2F200300B80072AA0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1704C2E200300B80072AA0B /* AppDelegate.swift */; };
@@ -48,6 +50,8 @@
 		ABEBB2FF9BDCE78DAD35094A /* Pods-WishLister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishLister.release.xcconfig"; path = "Pods/Target Support Files/Pods-WishLister/Pods-WishLister.release.xcconfig"; sourceTree = "<group>"; };
 		C12184B5220E0E8C0088D6AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C13FA49122135B68004D11EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C13FA49822138530004D11EC /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
+		C13FA49922138530004D11EC /* Screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot2.png; sourceTree = "<group>"; };
 		C1458D4C20049E7300E35765 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		C1458D4E2004AE9700E35765 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		C1704C2B200300B80072AA0B /* WishLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +89,8 @@
 		C12184BA220E342F0088D6AC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C13FA49822138530004D11EC /* Screenshot1.png */,
+				C13FA49922138530004D11EC /* Screenshot2.png */,
 				C1704C38200300B80072AA0B /* Assets.xcassets */,
 				C1704C3D200300B80072AA0B /* Info.plist */,
 			);
@@ -259,7 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13FA49A22138530004D11EC /* Screenshot1.png in Resources */,
 				C13FA49222135B68004D11EC /* README.md in Resources */,
+				C13FA49B22138530004D11EC /* Screenshot2.png in Resources */,
 				C1EB3AE6200F1254000ED9F8 /* .swiftlint.yml in Resources */,
 				C1704C3C200300B80072AA0B /* LaunchScreen.storyboard in Resources */,
 				C1704C39200300B80072AA0B /* Assets.xcassets in Resources */,
