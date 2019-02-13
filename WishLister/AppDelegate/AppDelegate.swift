@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  WishLister
 //
-//  Created by Brandon Ha on 2018-01-07.
-//  Copyright © 2018 Brandon Ha. All rights reserved.
+//  Created by Brandon Ha on 2019-01-07.
+//  Copyright © 2019 Brandon Ha. All rights reserved.
 //
 
 import UIKit
