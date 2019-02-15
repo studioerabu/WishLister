@@ -2,7 +2,7 @@
 //  MainVC.swift
 //  WishLister
 //
-//  Created by Brandon Ha on 2019-01-07.
+//  Created by Brandon Ha
 //  Copyright © 2019 Brandon Ha. All rights reserved.
 //
 
